@@ -1,4 +1,5 @@
 // components/Team.js
+import Image from "next/image";
 import React from "react";
 
 // data/team.js
@@ -6,7 +7,7 @@ export const teamMembers = [
   {
     name: "John Doe",
     role: "Director of the board",
-    image: "https://readymadeui.com/team-1.webp",
+    image: "/Avatar/a1.jpg",
     description:
       "Eiusmod commodo aliquip laboris qui anim non voluptate consectetur.",
     socialLinks: {
@@ -18,7 +19,7 @@ export const teamMembers = [
   {
     name: "Mark Adair",
     role: "Director of the board",
-    image: "https://readymadeui.com/team-2.webp",
+    image: "/Avatar/a3.jpg",
     description:
       "Eiusmod commodo aliquip laboris qui anim non voluptate consectetur.",
     socialLinks: {
@@ -30,7 +31,7 @@ export const teamMembers = [
   {
     name: "Simon Konecki",
     role: "Director of the board",
-    image: "https://readymadeui.com/team-3.webp",
+    image: "/Avatar/a2.jpg",
     description:
       "Eiusmod commodo aliquip laboris qui anim non voluptate consectetur.",
     socialLinks: {
@@ -53,9 +54,11 @@ const Team = () => {
               key={index}
               className="bg-gray-200 max-w-[230px] rounded-tl-full rounded-tr-full mx-auto"
             >
-              <img
+              <Image
                 src={member.image}
                 alt={member.name}
+                width={230}
+                height={230}
                 className="rounded-full mx-auto"
               />
               <div className="p-4">

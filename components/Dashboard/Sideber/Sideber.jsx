@@ -1,4 +1,5 @@
 // components/Sidebar.js
+import Image from "next/image";
 import Link from "next/link";
 
 const Sidebar = () => {
@@ -6,7 +7,13 @@ const Sidebar = () => {
     <nav className="bg-white shadow-lg h-screen fixed top-0 left-0 min-w-[250px] py-6 px-4 font-sans overflow-auto">
       <Link href="/">
         <div className="flex items-center text-white">
-          <img src="/logo.png" alt="logo" className="w-10" />
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={100}
+            height={100}
+            className="w-10"
+          />
           <p className="text-gray-700 text-base font-bold uppercase">
             Transport
           </p>

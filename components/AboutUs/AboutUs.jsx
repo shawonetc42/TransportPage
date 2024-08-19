@@ -1,7 +1,7 @@
 import React from "react";
 import QuoteForm from "./QuoteForm";
 import PartnerLogos from "./PartnerLogos";
-
+import Image from "next/image";
 function AboutUs() {
   return (
     <section
@@ -9,10 +9,12 @@ function AboutUs() {
       className="flex overflow-hidden flex-col bg-slate-900 bg-opacity-90"
     >
       <div className="flex relative flex-col w-full min-h-[629px] max-md:max-w-full">
-        <img
+        <Image
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/9aa78bb6d068dac5b1bcc6e4447b62d9b49f9d3ac76c85d43c5d2d27e6f19e9d?placeholderIfAbsent=true&apiKey=4347c25cbbc84e04bdff1e95b941b3c7"
-          alt=""
+          src="/aboutus1.png"
+          alt="about us image"
+          width={1920}
+          height={1080}
           className="object-cover absolute inset-0 size-full"
         />
         <div

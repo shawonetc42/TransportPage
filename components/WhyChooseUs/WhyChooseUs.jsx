@@ -18,9 +18,12 @@ const FeaturesSection = () => {
               <div className="relative pb-20 lg:pb-0">
                 {/* First Card */}
                 <div className="absolute top-0 left-0 -mt-8 md:mt-9 inline-flex p-4 bg-white rounded-3xl shadow-xl">
-                  <img
-                    src="https://readymadeui.com/profile_2.webp"
-                    className="w-14 h-14 rounded-full mx-auto"
+                  <Image
+                    src="/Avatar/a1.jpg"
+                    alt="avater"
+                    width={56}
+                    height={56}
+                    className="w-10 h-10 rounded-full mx-auto object-cover"
                   />
                   <div className="mx-3">
                     <span className="font-semibold">Received $450.00</span>
@@ -29,7 +32,12 @@ const FeaturesSection = () => {
                     </span>
                   </div>
                   <div className="items-start">
-                    <img src="Blue_Badge.png" alt="" width={24} height={24} />
+                    <Image
+                      src="/Blue_Badge.png"
+                      alt=""
+                      width={24}
+                      height={24}
+                    />
                   </div>
                 </div>
                 {/* Second Card */}
@@ -78,8 +86,8 @@ const FeaturesSection = () => {
                 </div>
                 {/* Main Image */}
                 <div className="">
-                  <img
-                    src="https://img.freepik.com/free-photo/containers-railways-shipment-concept_23-2148959704.jpg?size=626&ext=jpg"
+                  <Image
+                    src="/bg.png"
                     alt=""
                     width={500}
                     height={400}

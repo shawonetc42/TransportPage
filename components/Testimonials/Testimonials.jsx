@@ -22,7 +22,7 @@ const Testimonials = () => {
           {
             name: "John Doe",
             position: "CEO, Company",
-            image: "https://readymadeui.com/team-2.webp",
+            image: "/Avatar/a1.jpg",
             testimonial:
               "The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.",
             ratings: 3,
@@ -30,7 +30,7 @@ const Testimonials = () => {
           {
             name: "Mark Adair",
             position: "CEO, Company",
-            image: "https://readymadeui.com/team-3.webp",
+            image: "/Avatar/a2.jpg",
             testimonial:
               "The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.",
             ratings: 4,
@@ -38,7 +38,7 @@ const Testimonials = () => {
           {
             name: "Simon Konecki",
             position: "CEO, Company",
-            image: "https://readymadeui.com/team-4.webp",
+            image: "/Avatar/a3.jpg",
             testimonial:
               "The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.",
             ratings: 4,
@@ -46,7 +46,7 @@ const Testimonials = () => {
         ].map(({ name, position, image, testimonial, ratings }, index) => (
           <div key={index} className="rounded-md">
             <div className="flex flex-col items-center">
-              <img
+              <Image
                 src={image}
                 alt={name}
                 width={96}

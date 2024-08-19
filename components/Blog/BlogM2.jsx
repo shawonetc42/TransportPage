@@ -6,7 +6,7 @@ const TransportBlog = () => {
       <div className="max-w-screen-xl px-6 py-10 mx-auto">
         <div className="lg:flex lg:-mx-6">
           <div className="lg:w-3/4 lg:px-6">
-            <img
+            <Image
               className="object-cover object-center w-full h-80 xl:h-[28rem] rounded-xl"
               src="/blog.jpg" // Replace with your transportation-related image
               alt="Transportation"
@@ -24,9 +24,9 @@ const TransportBlog = () => {
               </h1>
 
               <div className="flex items-center mt-6">
-                <img
+                <Image
                   className="object-cover object-center w-10 h-10 rounded-full"
-                  src="https://readymadeui.com/team-1.webp"
+                  src="/Avatar/a1.jpg"
                   alt="John Doe" // Replace with relevant author image
                   width={40}
                   height={40}

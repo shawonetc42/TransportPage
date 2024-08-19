@@ -1,5 +1,6 @@
 // components/Footer.js
 
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -8,7 +9,13 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10">
         <div>
           <a className="flex items-center text-white">
-            <img src="/logo.png" alt="logo" className="w-10" />
+            <Image
+              src="/logo.png"
+              alt="logo"
+              width={100}
+              height={100}
+              className="w-10"
+            />
             <p className="text-gray-300 text-base font-bold uppercase">
               {" "}
               Transport
