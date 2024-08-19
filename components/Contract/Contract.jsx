@@ -9,10 +9,13 @@ const ContactForm = () => {
     >
       <div className="grid sm:grid-cols-2  items-start gap-16 p-4 container max-w-screen-xl  mx-auto px-3  font-[sans-serif]">
         <div>
-          <h1 className="text-gray-800 text-3xl font-extrabold">Let's Talk</h1>
+          <h1 className="text-gray-800 text-3xl font-extrabold">
+            Let&apos;s Talk
+          </h1>
+
           <p className="text-sm text-gray-500 mt-4">
-            Have some big idea or brand to develop and need help? Then reach out
-            we'd love to hear about your project and provide help.
+            Have some big idea or brand to develop and need help? Then reach
+            out—we&apos;d love to hear about your project and provide help.
           </p>
 
           <div className="mt-12">
